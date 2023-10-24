@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+
+    <div class="container-nav">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home"  id="Home" aria-current="page"><button type="button" class="btn btn-dark">Home</button></a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="#myprojects" class="nav-link">My Projects</a></li>
+            <li class="nav-item"><a href="#contactme" class="nav-link">Contact Me</a></li>
+          </ul>
+        </header>
+      </div>
+      
+    <section id="home">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="Ali-1.png" class="d-block mx-lg-auto img-fluid rounded-3 pb-5" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                     <h1 class="display-5 fw-bold lh-1 mb-3" id="h1home">Meet Ali Mortada
+                        <svg xmlns="http://www.w3.org/2000/svg" height="42" id="arrow" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                        </svg>
+                     </h1>
+                     
+                     <p class="lead" id="texthome">Student | Investor | Programer | EMT | Entrepreneur</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" id="btnhome" class="btn btn-lg px-2 me-md-2">
+                                <a href="https://instagram.com/alimortada04?utm_source=qr">
+                                <img src="Instagram_logo_2016.svg.webp" height="50">
+                                </a>
+                            </button>
+                            <button type="button" id="btnhome2" class="btn btn-outline-secondary btn-lg px-2 me-md-2">
+                                <a href="https://www.linkedin.com/in/alimortada/">
+                                <img src="LinkedIn_logo_initials.png.webp" height="50">
+                                </a>
+                            </button>
+                            <button type="button" id="btnhome" class="btn btn-lg px-2 me-md-2">
+                                <a href="https://www.snapchat.com/add/alimortada04?invite_id=1rAdqVbt&locale=en_US&share_id=Cgge7nw-TEOTQCfagPsDPQ&sid=18df48bac49447be877f133d976dfad9">
+                                <img src="snapchat-logo.svg" height="50">
+                                </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </section> 
+    
+    <section id="aboutme">
+
+        <div class="container px-4 py-5" id="custom-cards">
+            <h1 id="aboutme-head" class="display-4 pb-2 border-bottom fw-bold">About Me</h1>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(Track.png);">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Multi-Sport Athlete</h3>
+                    <ul class="d-flex list-unstyled mt-auto"> 
+                      <li class="me-auto">
+                        <img src="Trophy.png" alt="Bootstrap" height="50" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small id="smtxtabtme">-100m Dash-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(Emt.png); flex: 1;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">EMT-B</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="Health.jpg" alt="Bootstrap" height="50" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small id="smtxtabtme">-Certified-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(Investing.png); flex: 1;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Real Estate Investor</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="house.jpg" alt="Bootstrap" height="50" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small id="smtxtabtme">-4 Unit Rental-</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 pb-5" id="icon-grid">
+        
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Varsity Track</h3>
+                  <p class="mt-2">Events: 100m Dash - Discus - 4x100 - 4x200 - 200m Dash - Long Jump - High Jump</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Programmer</h3>
+                  <p class="mt-2">Learning to become a Fullstack Developer</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">EMT-Basic Certification</h3>
+                  <p class="mt-2">Certified Emergency Medical Technician as of March 2022</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Real Estate Investor</h3>
+                  <p class="mt-2">Investing in rental properties - First property was a 4-unit rental</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Varsity Soccer</h3>
+                  <p class="mt-2">Goalkeeper - State Final Four Contendor - Undefeated Regular Season Record</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">USM</h3>
+                  <p class="mt-2">Graduated from the University School of Milwaukee with a 3.95 GPA</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Independent Science Research Finalist</h3>
+                  <p class="mt-2">Conducted many Science Research Experiments in my highschool career, Advanced to the State Competition</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">National History Day - National Finalist</h3>
+                  <p class="mt-2"> 8th Grade National History Day Project - Advanced to Nationals Competition</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <section id="resume"> 
+        <main class="container">
+            <div class="p-4 p-md-5 mb-5 rounded text-body-emphasis bg-body-secondary">
+                <div class="col-lg-6 px-0"> 
+                    <h1 id="resume-head" class="display-4 pb-5 fw-bold">Resume</h1>
+                </div>
+                <div class="resume container" id="resumedoc">
+                <iframe width="70%" src="https://docs.google.com/document/d/e/2PACX-1vT_LFN7koqiSShdZ7XwsqeEIKBUXZzm4kT6uV1BZwUdTiREqjG5TYT9KmpZWiwKlQTsiIVbh7lpLynj/pub?embedded=true"></iframe>
+                </div>           
+            </div>
+        </main>
+    </section>  
+    
+    <section id="myprojects">
+        <main class="container">
+            <div class="container px-4 pt-5 my-5" id="custom-cards">
+                <h1 id="aboutme-head" class="display-4 pb-2 border-bottom fw-bold">My Projects</h1>
+            </div>    
+
+            <div class="row mb-2">
+              <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">HTML Project</strong>
+                    <h3 class="mb-0">Capstone 1 - Resume</h3>
+                    <div class="mb-1 text-body-secondary">October 2023</div>
+                    <p class="card-text mb-auto">My first capstone in this course: A resume programmed with HTML</p>
+                    <a href="http://127.0.0.1:3000/Capstone%201/index.html" class="icon-link gap-1 icon-link-hover stretched-link">
+                      Visit Webpage
+                      <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                  </div>
+                  <div class="col-auto d-none d-lg-block">
+                    <img src="Soccer.png" class="bd-placeholder-img" width="200" height="250">
+                 </div>
+                </div>
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success-emphasis">User Design</strong>
+                      <h3 class="mb-0">Hotel Project</h3>
+                      <div class="mb-1 text-body-secondary">October 2023</div>
+                      <p class="mb-auto">Designing a hotel/resort webpage via canva</p>
+                      <a href="https://stayoasis.my.canva.site/" class="icon-link gap-1 icon-link-hover stretched-link">
+                        Visit Webpage
+                        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                      </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <img src="Oasis.png" class="bd-placeholder-img" width="200" height="250">
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success-emphasis">CSS Project</strong>
+                    <h3 class="mb-0">TinDog Website</h3>
+                    <div class="mb-1 text-body-secondary">October 2023</div>
+                    <p class="mb-auto">Creating a Tinder website for dogs with CSS</p>
+                    <a href="http://127.0.0.1:3000/11.3%20TinDog%20Project/index.html" class="icon-link gap-1 icon-link-hover stretched-link">
+                        Visit Webpage
+                      <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                  </div>
+                  <div class="col-auto d-none d-lg-block">
+                    <img src="TinDog.png" class="bd-placeholder-img" width="200" height="250">
+                    </div>
+                </div>
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary-emphasis">Grid Placement Pro</strong>
+                      <h3 class="mb-0">Mondrian Project</h3>
+                      <div class="mb-1 text-body-secondary">October 2023</div>
+                      <p class="mb-auto">Replicating a piece of digital artwork through the use of Display Grid</p>
+                      <a href="http://127.0.0.1:3000/10.3%20Mondrian%20Project/index.html" class="icon-link gap-1 icon-link-hover stretched-link">
+                        Visit Webpage
+                        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                      </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <img src="Mondrian.png" width="200" height="250">
+                    </div>
+                  </div>
+              </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          
+          </main>
+
+    </section>
+
+    <section id="contactme"> 
+        <div class="container">
+            <main class="container">
+                <div class="p-4 p-md-5 mb-4 mt-5 rounded text-body-emphasis bg-body-secondary">
+                    <div class="col-lg-6 px-0"> 
+                        <h1 id="resume-head" class="display-4 pb-5 fw-bold">Contact Me</h1>
+        
+                    </div>     
+                    <div class="row justify-content-">
+                        <div class="col-md-6 text-center mb-5">
+                        
+                        </div>
+                        </div>
+                        <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                        <div class="wrapper">
+                        <div class="row no-gutters">
+                        <div class="contact-wrap w-100 p-md-5 p-4 py-5">
+                        <h3 class="mb-4">Leave Some Feedback!</h3>
+                        <div id="form-message-warning" class="mb-4"></div>
+                        <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+                        <div class="row">
+                        <div class="col-md-12">
+                        <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                        </div>
+                        </div>
+                        <div class="col-md-12">
+                        <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                        </div>
+                        <div class="col-md-12">
+                        <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                        </div>
+                        <div class="col-md-12">
+                        <div class="form-group">
+                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                        </div>
+                        </div>
+                        <div class="col-md-12">
+                        <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn btn-outline-secondary">
+                        <div class="submitting"></div>
+                        </div>
+                        </div>
+                        </form>
+                        </div>
+                        </div>
+                </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

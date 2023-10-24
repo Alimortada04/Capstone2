@@ -1,0 +1,76 @@
+.container-nav{
+    background-color: #2399A3;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+    opacity: 90%;
+}
+.nav-link{
+    color: #303333;
+}
+.background-image-home{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+.grid-container{
+    display: flex;
+    grid-column-start: 1;
+}
+#h1home{
+    color: white;
+}
+#texthome{
+    color:#AD60BD;
+}
+#arrow{
+    color:#2399A3;
+    opacity: 40%;
+}
+#btnhome{
+    background-color: #2399A3;
+    color: #303333;
+}
+#btnhome2{
+    background-color: #303333;
+    border-color: #AD60BD;
+}
+#aboutme-head{
+    color: #AD60BD;
+}
+#aboutmeimg1{
+    background-image: url(Track.JPG);
+}
+.background-image-aboutme{
+    background-color:#5E3466;
+    opacity: 90%;
+    z-index: -12;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+.background-image-resume{
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+}
+#smtxtabtme{
+    background-color: #303333;
+    border-radius: 50%;
+}
+#aboutme-text{
+    color: #303333;
+}
+#resume-head{
+    color: #2399A3;
+    
+}
+.resume{
+    display: flex;
+    justify-content: center;
+    }
+#resumedoc{
+    aspect-ratio: 5/3;
+}
+    
+.background-image-contactme{
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
